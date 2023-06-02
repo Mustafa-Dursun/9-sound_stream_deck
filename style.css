@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Geologica', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(168, 255, 255, 0.8);
+}
+
+
+/* #buttons{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+} */
+
+.btn{
+    background-color: rgba(0, 54, 255, 0.8);
+    color: rgba(168, 255, 255, 0.8);
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    color: rgba(243, 246, 255, 0.8);
+}
+
+.btn:focus{
+    outline: none;
+    transform: scale(1.1);
+}
+
+.pause{
+    position: fixed;
+    bottom: 0;
+}
+
+.durdur{
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgba(0, 54, 255, 0.8);
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
